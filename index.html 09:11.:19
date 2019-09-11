@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Animal Crossing New Horizons</title>
+   </head>
+      <body>
+        <h1>Animal Crossing New Horizons</h1>
+        <h2>Your ultimate guide in suceeding in this game!</h2>
+			<p>Learn how to build up your village, create tools, upgrade them, in game apps,and much, much more !</p>
+      <p> Here are some links to previous gamde guides</p>
+				<ul>
+				  <li><a href="https://www.thonky.com/animal-crossing-new-leaf/" target="_blank">Animal Crossing New Leaf</a></li>
+          <li> <a href="https://www.thonky.com/acww/" target="_blank">Animal Crossing Wild Wolrd</a></li>
+          <li> <a href="https://animalcrossing.fandom.com/wiki/Animal_Crossing:_City_Folk" target="_blank">Animal Crossing City Folk</a></li>
+        </ul>
+        <p> Ninterndo just released thier direct for New Horizons on September 4th!</p> 
+              <video src= "https://www.youtube.com/watch?v=sRWjpjNVOCM" width="600" height="460" control></video>
+	</body>
+</html>
+
