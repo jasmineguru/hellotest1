@@ -5,7 +5,7 @@ p {
     color: White;
   }
   body{
-      background-color: navy;
+      background-color:cornflowerblue;
   }
 /* buttons code from class */
 
@@ -16,5 +16,5 @@ p {
   
   #row{
     display: block;
-    text-align;
+    text-align:centre;
   }
