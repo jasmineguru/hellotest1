@@ -1,0 +1,33 @@
+h1 {
+    font-family: cursive;
+    font-size: 36px;
+    color: white;
+}
+
+#coralbody {
+    background-color: lightcoral;
+}
+
+ul.a {
+    list-style-type: circle;
+
+}
+
+/* ^about me css code */
+h2{
+    font-family: fantasy;
+    font-size: 26px;
+    color: white;
+
+}
+
+p {
+    font-family: Verdana, Tahoma, sans-serif
+    font-size: 26px;
+    color: white;
+}
+#rosybody {
+    background-color: rosybrown;
+}
+
+/*coding time line css */
