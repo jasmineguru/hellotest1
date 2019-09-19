@@ -2,14 +2,19 @@ h1 {
     font-family: cursive;
     font-size: 36px;
     color: white;
+    text-align: center;
 }
 
 #coralbody {
     background-color: lightcoral;
+    text-align: center;
 }
 
 ul.a {
-    list-style-type: circle;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+
 
 }
 
@@ -18,16 +23,31 @@ h2{
     font-family: fantasy;
     font-size: 26px;
     color: white;
+    text-align: center;
 
 }
 
 p {
-    font-family: Verdana, Tahoma, sans-serif
+    font-family: Verdana, Tahoma, sans-serif;
     font-size: 26px;
     color: white;
+    text-align: center;
 }
 #rosybody {
-    background-color: rosybrown;
+    background-image: url("https://backgrounddownload.com/wp-content/uploads/2018/09/background-formal-design-4.jpg");
+    text-align: center;
 }
 
 /*coding time line css */
+
+.button {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    float: left;
+    background-color: #fefefe;
+    border-radius: 14px 40px;
+} 
+.button:hover {
+    background-color: rgb(124, 152, 230); 
+    color: white;
+}
