@@ -40,7 +40,7 @@ p {
 
 /*coding time line css */
 
-.button {
+button {
     background-color: rgb(129, 137, 206); /* Blue thingy */
     border: none;
     color: white;
@@ -55,35 +55,35 @@ p {
     cursor: pointer;
   }
   
-  .button1 {
+  button {
     background-color: white; 
     color: black; 
     border: 2px solid  rgb(129, 137, 206);
   }
   
-  .button1:hover {
+  button:hover {
     background-color:  rgb(129, 137, 206);
     color: white;
   }
   
-  .button2 {
+  #button2 {
     background-color: white; 
     color: black; 
     border: 2px solid  rgb(129, 137, 206);
   }
   
-  .button2:hover {
+  #button2:hover {
     background-color:  rgb(129, 137, 206);
     color: white;
   }
   
-  .button3 {
+  #button3 {
     background-color: white; 
     color: black; 
     border: 2px solid  rgb(129, 137, 206);
   }
   
-  .button3:hover {
+  #button3:hover {
     background-color:  rgb(129, 137, 206);
     color: white;
   }
