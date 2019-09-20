@@ -1,26 +1,12 @@
 h1 {
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 36px;
     color: white;
     text-align: center;
 }
 
-#coralbody {
-    background-color: lightcoral;
-    text-align: center;
-}
-
-ul.a {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    color: white;
-
-
-}
-
-/* ^about me css code */
 h2{
-    font-family: fantasy;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 26px;
     color: white;
     text-align: center;
@@ -28,17 +14,20 @@ h2{
 }
 
 p {
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 26px;
     color: white;
     text-align: center;
 }
 #rosybody {
-    background-image: url("file:///Users/jasmineguruparan/Downloads/minimalism-techno-tatof-abstract-wallpaper-preview.jpg");
+    background-image: url("https://wallpaperaccess.com/full/566132.jpg");
     text-align: center;
 }
 
-/*coding time line css */
+#whatever{
+  background-image: url("https://cdn.wallpapersafari.com/73/91/oJ5tBb.jpg");
+    text-align: center;
+}
 
 button {
     background-color: rgb(129, 137, 206); /* Blue thingy */
@@ -66,7 +55,7 @@ button {
     color: white;
   }
   
-  #button2 {
+/*   #button2 {
     background-color: white; 
     color: black; 
     border: 2px solid  rgb(129, 137, 206);
@@ -86,4 +75,4 @@ button {
   #button3:hover {
     background-color:  rgb(129, 137, 206);
     color: white;
-  }
+  } */
