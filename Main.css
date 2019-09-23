@@ -63,6 +63,16 @@ button {
     background-color:  rgb(129, 137, 206);
     color: white;
   }
+
+  .footer{
+display: block;
+background-color: white;
+color: black;
+font-family: Century Gothic;
+text-align: left;
+width: 100%;
+bottom: 0px;
+  }
   
 /*   #button2 {
     background-color: white; 
@@ -86,11 +96,3 @@ button {
     color: white;
   } */
 
-
-  #whiteboi
-  {
-background-image: url("https://getjar.co.uk/wp-content/uploads/2018/07/4855789-white-background-images-1.jpg");
-font-family: Century Gothic;
-font-size: 38px;
-
-  }
