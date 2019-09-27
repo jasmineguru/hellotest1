@@ -1,20 +1,29 @@
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Century Gothic;
     font-size: 36px;
     color: white;
     text-align: center;
 }
 
 h2{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Century Gothic;
     font-size: 26px;
     color: white;
     text-align: center;
 
 }
 
+.intro{
+  font-family: Century Gothic;
+  font-size: 65px;
+  margin: 95px;
+  padding: 40px;
+  color: white;
+  text-align: center;
+}
+
 li{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Century Gothic;
   font-size: 20px;
   color: white;
   text-align: center;
@@ -23,23 +32,28 @@ li{
 }
 
 p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 26px;
+    font-family: Century Gothic;
+    font-size: 20px;
     color: white;
-    text-align: center;
-}
-#rosybody {
-    background-image: url("https://wallpaperaccess.com/full/566132.jpg");
-    text-align: center;
+    text-align: left;
+    text-decoration-line: inherit;
+    margin-right: 300px;
+    margin-left: 50px;
 }
 
 #whatever{
-  background-image: url("https://cdn.wallpapersafari.com/73/91/oJ5tBb.jpg");
-    text-align: center;
+  background-image: url("https://i.pinimg.com/originals/0b/e9/8f/0be98fab67529e61370ae2bb0145c49e.jpg");
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 button {
-    background-color: rgb(129, 137, 206); /* Blue thingy */
+    background-color: rgb(4, 12, 58); /* Blue thingy */
     border: none;
     color: white;
     padding: 16px 32px;
@@ -52,8 +66,52 @@ button {
     transition-duration: 0.4s;
     cursor: pointer;
   }
+
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
   
-  button {
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: rgb(2, 35, 61); /* active button colour*/
+    color: white;
+  }
+
+  .footer{
+    display: block;
+    background-color:	rgb(27, 93, 131);
+    color: black;
+    font-family: Century Gothic;
+    text-align: left;
+    width: 100%;
+    bottom: 0px;
+
+      }  
+
+     
+    
+  
+  /* button {
     background-color: white; 
     color: black; 
     border: 2px solid  rgb(129, 137, 206);
@@ -64,35 +122,8 @@ button {
     color: white;
   }
 
-  .footer{
-display: block;
-background-color: white;
-color: black;
-font-family: Century Gothic;
-text-align: left;
-width: 100%;
-bottom: 0px;
-  }
+
   
-/*   #button2 {
-    background-color: white; 
-    color: black; 
-    border: 2px solid  rgb(129, 137, 206);
-  }
   
-  #button2:hover {
-    background-color:  rgb(129, 137, 206);
-    color: white;
-  }
-  
-  #button3 {
-    background-color: white; 
-    color: black; 
-    border: 2px solid  rgb(129, 137, 206);
-  }
-  
-  #button3:hover {
-    background-color:  rgb(129, 137, 206);
-    color: white;
-  } */
+
 
