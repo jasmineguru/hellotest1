@@ -1,5 +1,3 @@
-//<script src="script.js"></script> - this will be how you line JS to HTML
-
 function say_welcome_to_Assignment_1(){
     alert("Welcome to Asasginment One");
     var age= prompt("What is your age?");
@@ -16,4 +14,6 @@ function say_welcome_to_Assignment_1(){
     else {
         alert("Ummm, are you from Area 51 cuz that't not a number...")
     }
+
 }
+
