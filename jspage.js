@@ -17,8 +17,8 @@ function triangle(){
 
     let a1= parseInt (prompt("Enter Angle 1"));
     let a12= parseInt (prompt("Enter Angle 2"));
-    let a3= 180-(A2 + A3);
-    alert ("Angle 3 is ");
+    let a3= 180-(a2 + a1);
+    alert ("Angle 3 is " + a3);
 }
 
 
