@@ -19,3 +19,10 @@ function triangle(){
     let A3= 180-(A2 + A3);
     alert ("Angle 3 is " +A3);
 }
+
+function century(){
+   let year = parseInt (prompt("Write a year and I will tell you the century it belongs in!"));
+   let century1 = parseInt((year - 1) / 100) + 1;
+   alert("The century is" + century1);
+   
+   }
