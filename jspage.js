@@ -14,8 +14,8 @@ function multiples(){
     
 
 function triangle(){
-    let A1= parseInt ("Enter Angle 1")
-    let A2= parseInt ("Enter Angle 2")
-    let A3= 180-(A2 + A3)
-    alert ("Angle 3 is " +A3)
+    let A1= parseInt ( prompt ("Enter Angle 1"));
+    let A2= parseInt ( prompt ("Enter Angle 2"));
+    let A3= 180-(A2 + A3);
+    alert ("Angle 3 is " +A3);
 }
