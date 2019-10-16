@@ -23,6 +23,6 @@ function triangle(){
 function century(){
    let year = parseInt (prompt("Write a year and I will tell you the century it belongs in!"));
    let century1 = parseInt((year - 1) / 100) + 1;
-   prompt("The century is" + century1);
+   alert("The century is" + century1);
    
    }
