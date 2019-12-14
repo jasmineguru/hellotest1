@@ -45,7 +45,7 @@ function century(){
     var alpha = {'a':'ranen','b':'amat', 'c':'mahisha', 'd':'mehdi', 'e':'aidan', 'f':'hesham','g':'kirimie', 'h':'omar', 'i':'roxanne', 'j':'mustafa', 'k':'zaid', 'l':'danish', 'm':'anish', 'n':'alex','o':'rizwan', 'p':'shaarif', 'q':'toshan', 'r':'pais', 's':'yunus', 't':'whitney','u':'mehkeh','v':'sriya','w':'nikola','x':'shams','y':'sathya','z':'korain' }
     var a = prompt("Tell me your word");
     var text = a.replace(/[abcdefghijklmnopqrstuvwxyz]/g,m=>alpha[m]);
-    alert (text + 'copy this to clipboard')
+    alert (text + ' ' + 'copy this to clipboard')
      }
   
   function decryption(){
