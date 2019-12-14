@@ -3,10 +3,7 @@ function rps(){
     var userChoice = prompt("Do you choose rock, paper or scissors?");
     if (! userChoice) {
         // User choice was undefined
-        document.write("<p>Player 1, you cheated! Refresh this screen and fight like a man.</p>");
-    } else {
-        // Display user choice
-        document.write("<p>Player 1:" + " " + userChoice + "</p>");
+        return ("<p>Player 1, you cheated! Refresh this screen and fight like a man.</p>");
     }
     // Computer choice
     var computerChoice = Math.random();
@@ -17,8 +14,6 @@ function rps(){
     } else {
         computerChoice = "scissors";
     }
-    // Display computer choice
-    document.write("<p>Computer:" + " " + computerChoice + "</p>");
     // Compare user choice vs computer choice
     var compare = function(choice1,choice2) {
         if (choice1 === choice2) {
