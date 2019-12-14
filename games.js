@@ -52,3 +52,7 @@ function rps(){
 alert (results);
 }
 
+function tictactoe(){
+
+    
+}
