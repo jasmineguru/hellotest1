@@ -49,5 +49,5 @@ function rps(){
     };
     // Run the compare function
     var results = compare(userChoice,computerChoice);
-    return results
+alert (results);
 }
