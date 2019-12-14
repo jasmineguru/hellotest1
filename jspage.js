@@ -65,12 +65,17 @@ function century(){
       }
     var b = prompt("Insert the message you desire to decrypt by (copy and paste your encrypted output");
 <<<<<<< HEAD
+<<<<<<< HEAD
     var text = b.replace(/[ranenamatmahishamehdiaidanheshamkirimieomarroxannemustafazaiddanishanishalexrizwanshaariftoshanpaisyunuswhitneymehkehsriyanikolashamssathyakorain]/g,m=>alpha[m])
     // var text = b.replace(/[abcdefghijklmnopqrstuvwxyz]/g,m=>alpha[m]);
 =======
     var text = b.replace(/[ranenamatmahishamehdiaidanheshamkirimieomarroxannemustafazaiddanishanishshivanirizwanshaariftoshanpaisyunuswhitneymehkehsriyanikolashamssathyakorain]/g,m=>alpha[m])
     // var text = b.replace(/[azyxwvutsrqponmlkjihgfedcb]/g,m=>alpha[m]);
 >>>>>>> parent of 08746a7... frer
+=======
+    // var text = b.replace(/[ranenamatmahishamehdiaidanheshamkirimieomarroxannemustafazaiddanishanishshivanirizwanshaariftoshanpaisyunuswhitneymehkehsriyanikolashamssathyakorain]/g,m=>alpha[m])
+    var text = b.replace(/[azyxwvutsrqponmlkjihgfedcb]/g,m=>alpha[m]);
+>>>>>>> parent of 99d07fa... rrr
     alert ('The decrypted text is' + ' ' + text + '!');
 =======
     text = a.replace(/[abcdefghijklmnopqrstuvwxyz]/g,m=>alpha[m]);
