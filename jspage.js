@@ -46,7 +46,7 @@ function century(){
     var alpha = {'a':'b','b':'c', 'c':'d', 'd':'e', 'e':'f', 'f':'g','g':'h', 'h':'i', 'i':'j', 'j':'k', 'k':'l', 'l':'m', 'm':'n', 'n':'o','o':'p', 'p':'q', 'q':'r', 'r':'s', 's':'t', 't':'u','u':'v','v':'w','w':'x','x':'y','y':'z','z':'a' }
     var a = prompt("Tell me your word");
     var text = a.replace(/[abcdefghijklmnopqrstuvwxyz]/g,m=>alpha[m]);
-    alert (text + ' ' + 'copy the given output to clipboard')
+    alert (text + ' ' + 'copy the given output to clipboard');
      }
   
   function decryption(){
@@ -55,5 +55,5 @@ function century(){
     var b = prompt("Insert the message you desire to decrypt by (copy and paste your encrypted output");
     // var text = b.replace(/[ranenamatmahishamehdiaidanheshamkirimieomarroxannemustafazaiddanishanishshivanirizwanshaariftoshanpaisyunuswhitneymehkehsriyanikolashamssathyakorain]/g,m=>alpha[m])
     var text = b.replace(/[azyxwvutsrqponmlkjihgfedcb]/g,m=>alpha[m]);
-    alert ('The decrypted text is' + ' ' + text + '!')
+    alert ('The decrypted text is' + ' ' + text + '!');
   }
