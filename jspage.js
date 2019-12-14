@@ -63,7 +63,12 @@ function century(){
       // 'b':'a', 'c' :'b', 'd':'c', 'e':'d', 'f':'e', 'g':'f',  'h':'g', 'i':'h', 'j':'i', 'k':'j', 'l':'k', 'm':'l', 'n':'m', 'o':'n', 'p':'p', 'q':'p', 'r':'q', 's':'r', 't':'s', 'u':'t', 'v':'u', 'w':'v', 'x':'w', 'y':'x', 'z':'y', 'a': 'z'
       }
     var b = prompt("Insert the message you desire to decrypt by (copy and paste your encrypted output");
+<<<<<<< HEAD
     var text = b.replace(/[ranenamatmahishamehdiaidanheshamkirimieomarroxannemustafazaiddanishanishalexrizwanshaariftoshanpaisyunuswhitneymehkehsriyanikolashamssathyakorain]/g,m=>alpha[m])
     // var text = b.replace(/[abcdefghijklmnopqrstuvwxyz]/g,m=>alpha[m]);
+=======
+    var text = b.replace(/[ranenamatmahishamehdiaidanheshamkirimieomarroxannemustafazaiddanishanishshivanirizwanshaariftoshanpaisyunuswhitneymehkehsriyanikolashamssathyakorain]/g,m=>alpha[m])
+    // var text = b.replace(/[azyxwvutsrqponmlkjihgfedcb]/g,m=>alpha[m]);
+>>>>>>> parent of 08746a7... frer
     alert ('The decrypted text is' + ' ' + text + '!');
   }
