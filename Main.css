@@ -31,14 +31,8 @@ li{
 
 }
 
-#paragraph {
-    font-family: Century Gothic;
-    font-size: 20px;
-    color: white;
-    text-align: center;
-    text-decoration-line: inherit;
-    margin-right: 1050px;
-    margin-left: 1050px;
+p {
+  margin: 35px;
 }
 
 
