@@ -58,11 +58,16 @@ function century(){
   }
   
   function decryption(){
+<<<<<<< HEAD
     var alpha = 
     {
       'ranen':'a', 'amat':'b', 'mahisha':'c','mehdi':'d', 'aidan': 'e','hesham':'f','kirimie':'g', 'omar':'h', 'roxanne': 'i', 'mustafa':'j','zaid':'k', 'danish': 'l', 'anish':'m', 'alex':'n', 'rizwan':'o','shaarif':'p', 'toshan':'q', 'pais':'r', 'yunus':'s', 'whitney':'t', 'mehkeh':'u','sriya':'v', 'nikola':'w', 'shams':'x', 'sathya': 'y', 'korain':'z'
       // 'b':'a', 'c' :'b', 'd':'c', 'e':'d', 'f':'e', 'g':'f',  'h':'g', 'i':'h', 'j':'i', 'k':'j', 'l':'k', 'm':'l', 'n':'m', 'o':'n', 'p':'p', 'q':'p', 'r':'q', 's':'r', 't':'s', 'u':'t', 'v':'u', 'w':'v', 'x':'w', 'y':'x', 'z':'y', 'a': 'z'
       }
+=======
+
+    // var alpha = {'ranen':'a', 'amat':'b', 'mahisha':'c','mehdi':'d', 'aidan': 'e','hesham':'f','kirimie':'g', 'omar':'h', 'roxanne': 'i', 'mustafa':'j','zaid':'k', 'danish': 'l', 'anish':'m', 'alex':'n', 'rizwan':'o','shaarif':'p', 'toshan':'q', 'pais':'r', 'yunus':'s', 'whitney':'t', 'mehkeh':'u','sriya':'v', 'nikola':'w', 'shams':'x', 'sathya': 'y', 'korain':'z'}
+>>>>>>> parent of db66737... ff
     var b = prompt("Insert the message you desire to decrypt by (copy and paste your encrypted output");
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -71,6 +76,7 @@ function century(){
 =======
     var text = b.replace(/[ranenamatmahishamehdiaidanheshamkirimieomarroxannemustafazaiddanishanishshivanirizwanshaariftoshanpaisyunuswhitneymehkehsriyanikolashamssathyakorain]/g,m=>alpha[m])
     // var text = b.replace(/[azyxwvutsrqponmlkjihgfedcb]/g,m=>alpha[m]);
+<<<<<<< HEAD
 >>>>>>> parent of 08746a7... frer
 =======
     // var text = b.replace(/[ranenamatmahishamehdiaidanheshamkirimieomarroxannemustafazaiddanishanishshivanirizwanshaariftoshanpaisyunuswhitneymehkehsriyanikolashamssathyakorain]/g,m=>alpha[m])
@@ -87,4 +93,7 @@ function century(){
     var b = prompt("What do you wish to decrypt(copy and past your encrypted word)");
     text = b.replace(/[abcdefghijklmnopqrstuvwxyz]/g,m=>alpha[m]);
 >>>>>>> parent of 15dc538... return text
+=======
+    return ('The decrypted text is' + ' ' + text + '!');
+>>>>>>> parent of db66737... ff
   }
