@@ -54,62 +54,7 @@ button {
     transition-duration: 0.4s;
     cursor: pointer;
   }
- 
 
-
-  
-/* 
-
-  
-  .topnav {
-    overflow: hidden;
-    background-color: #333;
-    
-  }
-   */
-  /* .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a:hover {
-    background-color: rgb(255, 255, 255);
-    color: black;
-  }
-  
-  .topnav a.active {
-    background-color: rgb(2, 35, 61); /* active button colour*/
-    /* color: white;
-  }
-
-  .footer{
-    display: block;
-    background-color:	rgb(27, 93, 131);
-    color: black;
-    font-family: Century Gothic;
-    text-align: left;
-    width: 100%;
-    bottom: 0px; */
-/* 
-      }   *
-
-  
-    
-  
-  /* button {
-    background-color: white; 
-    color: black; 
-    border: 2px solid  rgb(129, 137, 206);
-  }
-  
-  button:hover {
-    background-color:  rgb(129, 137, 206);
-    color: white;
-  }
 
 
   
