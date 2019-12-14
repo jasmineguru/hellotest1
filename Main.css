@@ -83,7 +83,7 @@ button {
   
   .topnav a.active {
     background-color: rgb(2, 35, 61); /* active button colour*/
-    color: white;
+    /* color: white;
   }
 
   .footer{
@@ -94,8 +94,8 @@ button {
     text-align: left;
     width: 100%;
     bottom: 0px; */
-
-      }  
+/* 
+      }   *
 
   
     
