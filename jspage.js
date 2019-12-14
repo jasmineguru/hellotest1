@@ -51,6 +51,7 @@ function century(){
       // 'a':'b','b':'c', 'c':'d', 'd':'e', 'e':'f', 'f':'g','g':'h', 'h':'i', 'i':'j', 'j':'k', 'k':'l', 'l':'m', 'm':'n', 'n':'o','o':'p', 'p':'q', 'q':'r', 'r':'s', 's':'t', 't':'u','u':'v','v':'w','w':'x','x':'y','y':'z','z':'a' 
       }
     var a = prompt("Tell me your word");
+<<<<<<< HEAD
     var text = a.replace(/[ranenamatmahishamehdiaidanheshamkirimieomarroxannemustafazaiddanishanishalexrizwanshaariftoshanpaisyunuswhitneymehkehsriyanikolashamssathyakorain]/g,m=>alpha[m]);
     // abcdefghijklmnopqrstuvwxyz
     alert (text + ' ' + 'copy the given output to clipboard');
@@ -71,4 +72,14 @@ function century(){
     // var text = b.replace(/[azyxwvutsrqponmlkjihgfedcb]/g,m=>alpha[m]);
 >>>>>>> parent of 08746a7... frer
     alert ('The decrypted text is' + ' ' + text + '!');
+=======
+    text = a.replace(/[abcdefghijklmnopqrstuvwxyz]/g,m=>alpha[m]);
+     }
+  
+  function decryption(){
+
+    var alpha = {'ranen':'a', 'amat':'b', 'mahisha':'c','mehdi':'d', 'aidan': 'e','hesham':'f','kirimie':'g', 'omar':'h', 'roxanne': 'i', 'mustafa':'j','zaid':'k', 'danish': 'l', 'anish':'m', 'n':'alex', 'rizwan':'o','shaarif':'p', 'toshan':'q', 'pais':'r', 'yunus':'s', 'whitney':'t', 'mehkeh':'u','sriya':'v', 'nikola':'w', 'shams':'x', 'sathya': 'y', 'korain':'z'}
+    var b = prompt("What do you wish to decrypt(copy and past your encrypted word)");
+    text = b.replace(/[abcdefghijklmnopqrstuvwxyz]/g,m=>alpha[m]);
+>>>>>>> parent of 15dc538... return text
   }
