@@ -55,5 +55,5 @@ function century(){
     var b = prompt("Insert the message you desire to decrypt by (copy and paste your encrypted output");
     var text = b.replace(/[ranenamatmahishamehdiaidanheshamkirimieomarroxannemustafazaiddanishanishshivanirizwanshaariftoshanpaisyunuswhitneymehkehsriyanikolashamssathyakorain]/g,m=>alpha[m])
     // var text = b.replace(/[azyxwvutsrqponmlkjihgfedcb]/g,m=>alpha[m]);
-    alert ('The decrypted text is' + ' ' + text + '!');
+    return ('The decrypted text is' + ' ' + text + '!');
   }
