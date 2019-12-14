@@ -51,3 +51,4 @@ function rps(){
     var results = compare(userChoice,computerChoice);
 alert (results);
 }
+
