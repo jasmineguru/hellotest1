@@ -52,10 +52,16 @@ function century(){
       }
     var a = prompt("Tell me your word");
 <<<<<<< HEAD
+<<<<<<< HEAD
     var text = a.replace(/[ranenamatmahishamehdiaidanheshamkirimieomarroxannemustafazaiddanishanishalexrizwanshaariftoshanpaisyunuswhitneymehkehsriyanikolashamssathyakorain]/g,m=>alpha[m]);
     // abcdefghijklmnopqrstuvwxyz
     alert (text + ' ' + 'copy the given output to clipboard');
   }
+=======
+    var text = a.replace(/[abcdefghijklmnopqrstuvwxyz]/g,m=>alpha[m]);
+    alert (text + ' ' + 'copy the given output to clipboard')
+     }
+>>>>>>> parent of 18d92af... fre
   
   function decryption(){
     var alpha = 
@@ -75,6 +81,7 @@ function century(){
 =======
     // var text = b.replace(/[ranenamatmahishamehdiaidanheshamkirimieomarroxannemustafazaiddanishanishshivanirizwanshaariftoshanpaisyunuswhitneymehkehsriyanikolashamssathyakorain]/g,m=>alpha[m])
     var text = b.replace(/[azyxwvutsrqponmlkjihgfedcb]/g,m=>alpha[m]);
+<<<<<<< HEAD
 >>>>>>> parent of 99d07fa... rrr
     alert ('The decrypted text is' + ' ' + text + '!');
 =======
@@ -87,4 +94,7 @@ function century(){
     var b = prompt("What do you wish to decrypt(copy and past your encrypted word)");
     text = b.replace(/[abcdefghijklmnopqrstuvwxyz]/g,m=>alpha[m]);
 >>>>>>> parent of 15dc538... return text
+=======
+    alert ('The decrypted text is' + ' ' + text + '!')
+>>>>>>> parent of 18d92af... fre
   }
