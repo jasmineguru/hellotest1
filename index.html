@@ -31,7 +31,7 @@
           <li><a href="games.html>News">Games</a></li>
         </li> -->
 
-<div class="w3-top">
+<!-- <div class="w3-top">
     <div class="w3-bar w3-white w3-wide w3-padding w3-card">
       <a href="index.html" class="w3-bar-item w3-button"><b>JG</b> Jasmine Guruparan</a>
       <div class="w3-right w3-hide-small">
@@ -40,7 +40,91 @@
         <a href="games.html" class="w3-bar-item w3-button">Games</a>
       </div>
     </div>
-  </div>
+  </div> -->
+
+  <style>
+    body {
+      font-family: Verdana, Geneva, sans-serif;
+    
+    }
+    
+    .navbar {
+      overflow: hidden;
+      background-color: white;
+    }
+    
+    .navbar a {
+      float: left;
+      font-size: 20px;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    .dropdown {
+      float: left;
+      overflow: hidden;
+    }
+    
+    .dropdown .dropbtn {
+      font-size: 20px;  
+      border: none;
+      outline: none;
+      color: black;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+    
+    .navbar a:hover, .dropdown:hover .dropbtn {
+      background-color: white;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: white;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <div class="navbar">
+      <div class="dropdown">
+        <button class="dropbtn">About Me 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">**</a>
+          <a href="#">Personal Coding Timeline</a>
+          <a href="#">Acheivements</a>
+        </div>
+      </div> 
+       <a href="#home">COMSCI 3U</a>
+      <a href="#news">Games</a>
+    </div>
 
 
   <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
