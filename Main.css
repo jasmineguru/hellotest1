@@ -73,8 +73,41 @@ a:hover{
 /* start of code for slideshow desgin on home page */
 
 .theSlideShow-container{
-    width: 60px;
-    margin: 100px;
     position: relative;
+    max-width: 800px;
+    text-align: center;
+
+
+
 
 }
+
+.imgsize{
+
+
+}
+
+.slides{
+    display: none;
+}
+
+
+
+.numbers{
+    position: absolute;
+    padding: 12px, 8px;
+    color: white;
+    font-family:'Josefin Sans', sans-serif ;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.caption{
+    text-align: center;
+    display: block;
+    padding: 20px;
+    color:white;
+}
+
