@@ -24,13 +24,26 @@
                 </ul>
             </nav>
         
-            <div>
-            <img class="slideShow" src="https://i.ytimg.com/vi/j5CQvn5cX24/maxresdefault.jpg" width="100%">
-            <img class="slideShow" src="https://i.ytimg.com/vi/B-IXodkk_hI/maxresdefault.jpg" width="100%">
-            <img class="slideShow" src="https://i.ytimg.com/vi/KYfTzaLQQC4/maxresdefault.jpg" width="100%"> 
+            <div class="theSlideShow-container"> <!-- This div encloses the entire slide show-->
+                <div class="slides" > <!-- This div encloses a single slide for the ss; slide no. 1-->
+                    <div> 1/4 </div> 
+                    <div> <img src="htmlimage/giyushinobu.jpg" /> </div> <!-- this div contains the image of the slide(which is the slide ig)-->
+                    <div> Caption</div> <!-- this div encloses the caption for the slide-->
+                </div>
 
-            <button onclick="plusSlide(-1)"> ← </button>
-            <button onclick="plusSlide(1)"> → </button>
+                <div class="slides" > 
+                    <div> 2/4 </div>
+                    <div> <img src="https://i.ytimg.com/vi/j5CQvn5cX24/maxresdefault.jpg"> </div>
+                    <div> Caption</div>
+                </div>
+
+                <div class="slides" > 
+                    <div> 3/4 </div>
+                    <div> <img src="https://i.ytimg.com/vi/f8rC5syin7U/maxresdefault.jpg"> </div>
+                    <div> Caption</div>
+                </div>
+
+           
             </div>
         </body>
 
