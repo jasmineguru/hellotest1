@@ -4,30 +4,29 @@
     margin:0;
     list-style: none;
     text-decoration: none;
-    
-
 }
 
 body{
     background-color: #88bdbc;
 }
+
 /* start of code for navbar desgin */
-label.logostyle{
-    color: #026670;
+
+pre{
     font-family: 'Josefin Sans', sans-serif;
+    color: #ffffff;
     font-weight: 700px;
-    font-style: italic;
     font-size: 40px;
     padding: 200px, 100px;
     line-height: 100px;
-    margin-left: 50px;
+    margin-left: 100px;
+    display: inline-block;
 }
 
 nav{
-    background-color: #4f4a41;
+    background-color: #41392b;
     height: 100px;
     width: 100%;
-    margin-top: 10px;
 }
 
 
@@ -55,19 +54,18 @@ nav ul li a{
     padding-right: 20px;
     height: 100%;
     display: block;
-    border-radius: 10px;
    
     
 }
 
 
 a:hover{
-    background-color: blue;
+    background-color: #2e281a ;
     height: 100%;
 }
 
 .active{
-    background-color: aqua;
+    background-color: #112d32;
 }
 
 /* end of code for navbar desgin */
