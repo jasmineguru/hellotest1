@@ -1,3 +1,17 @@
+/* Fonts
+
+font-family: 'Alata', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Libre Caslon Display', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat Subrayada', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Spectral', serif;
+
+*/
+
+
 /* this is to reset all defult styles */
 *{
     padding: 0;
@@ -59,7 +73,7 @@ nav ul li a{
 }
 
 
-a:hover{
+a.hoverer:hover{
     background-color: #2e281a ;
     height: 100%;
 }
@@ -70,20 +84,22 @@ a:hover{
 
 /* end of code for navbar desgin */
 
+
 /* start of code for slideshow desgin on home page */
+
+.slideBackground{
+    background-color: white;
+    margin-top: 80px;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 10px;
+}
 
 .theSlideShow-container{
     position: relative;
-    max-width: 800px;
-    text-align: center;
-
-
-
-
-}
-
-.imgsize{
-
+    margin: auto;
+    max-width: max-content;
 
 }
 
@@ -91,23 +107,91 @@ a:hover{
     display: none;
 }
 
-
-
 .numbers{
-    position: absolute;
+    position: relative;
     padding: 12px, 8px;
     color: white;
     font-family:'Josefin Sans', sans-serif ;
     font-weight: 600;
     margin-top: 10px;
     margin-left: 10px;
+    top: 25px;
 
 }
 
 .caption{
     text-align: center;
     display: block;
-    padding: 20px;
     color:white;
+    position: absolute;
+    width: 100%;
+    padding: 20px, 15px;
+    top: 50%;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    background-color: rgb(0,0,0, 0.5) ;
+    
 }
 
+.prev{
+    position: absolute;
+    top: 51%;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.next{
+    position: absolute;
+    top: 51%;
+    color: white;
+    font-size: 30px;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev:hover, .next:hover{
+    display: block;
+    background-color: rgb(255,255,255, 0.5);
+}
+
+.doties{
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    padding: 5px;
+    background-color: grey;
+    opacity: 0.5;
+    top: 20px;
+    border-radius: 100%;
+    cursor: pointer;
+
+}
+
+.activedots, .doties:hover{
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    padding: 5px;
+    background-color: indigo;
+    top: 20px;
+    border-radius: 100%;
+}
+
+.fade{
+    animation-name: fade;
+    animation-duration: 0.5s;
+
+}
+
+@keyframes fade{
+    from{
+        opacity: 0.5;
+    }
+    to{
+        opacity: 1;
+    }
+}
