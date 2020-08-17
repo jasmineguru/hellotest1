@@ -96,6 +96,7 @@ nav ul li a{
     padding-right: 20px;
     height: 100%;
     display: block;
+    transition: 400ms;
    
     
 }
@@ -104,6 +105,8 @@ nav ul li a{
 a.hoverer:hover{
     background-color: #2e281a ;
     height: 100%;
+    transform: scale(1.1)
+    
 }
 
 .active{
@@ -213,4 +216,57 @@ a.hoverer:hover{
     to{
         opacity: 1;
     }
+}
+
+/* slide show complete */
+
+/* start for JA KEN HOIIII (rock paper scissors) */
+
+.selections{
+    display: flex;
+    justify-content: center;
+
+}
+
+.selection{
+    background:none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 65px;
+    padding: 50px;
+    margin: 10px;
+    transition: 100ms;
+}
+
+.selection:hover{
+    transform: scale(1.5)
+}
+
+.results{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    justify-items: center;
+    margin: 10px;
+
+}
+
+.result-score{
+    margin-left: 10px;
+    font-size: 35px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.result-selection{
+    opacity: 0.4;
+}
+
+.result-selection.winner{
+    opacity: 1;
+    font-size: 45px
 }
