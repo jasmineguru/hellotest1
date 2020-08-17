@@ -21,7 +21,35 @@ font-family: 'Spectral', serif;
 }
 
 body{
-    background-color: #88bdbc;
+    background-image: url("https://images.unsplash.com/photo-1506619216599-9d16d0903dfd?ixlib=rb-1.2.1&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    color: #4f4a41;
+    font-size: 46px;
+    text-align: center;
+    padding: 25px;
+}
+
+p{
+    color: #6e6658;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding: 15px;
+    text-align: justify;
+    
+}
+
+.sectionals{
+    background-color: white;
+    margin-top: 80px;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 10px;
 }
 
 /* start of code for navbar desgin */
@@ -86,15 +114,6 @@ a.hoverer:hover{
 
 
 /* start of code for slideshow desgin on home page */
-
-.slideBackground{
-    background-color: white;
-    margin-top: 80px;
-    padding: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
-    border-radius: 10px;
-}
 
 .theSlideShow-container{
     position: relative;
