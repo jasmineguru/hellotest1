@@ -21,9 +21,10 @@ font-family: 'Spectral', serif;
 }
 
 .mainbody{
-    background-image: url("https://images.unsplash.com/photo-1506619216599-9d16d0903dfd?ixlib=rb-1.2.1&w=1000&q=80");
+    background-image: url("https://i.pinimg.com/originals/73/bc/99/73bc998a196460c39eb72583dac780d4.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .bluefordh1{
@@ -103,7 +104,7 @@ font-family: 'Spectral', serif;
 /* school assignments page */
 
 .assignmentbackground{
-    background-image: url("https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max");
+    background-image: url("https://i.ytimg.com/vi/EHloCo8Q05g/maxresdefault.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -126,6 +127,62 @@ font-family: 'Spectral', serif;
     background-size: cover;
     background-attachment: fixed;
 
+}
+
+/* start for JA KEN HOIIII (rock paper scissors) */
+.jakenbackground{
+    background-image: url("https://dailyanimeart.files.wordpress.com/2012/09/they-play-rock-paper-scissors1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.selections{
+    display: flex;
+    justify-content: center;
+
+}
+
+.selection{
+    background:none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 65px;
+    padding: 50px;
+    margin: 10px;
+    transition: 100ms;
+}
+
+.selection:hover{
+    transform: scale(1.5)
+}
+
+.results{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    justify-items: center;
+    margin: 10px;
+
+}
+
+.result-score{
+    margin-left: 10px;
+    font-size: 35px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.result-selection{
+    opacity: 0.4;
+}
+
+.result-selection.winner{
+    opacity: 1;
+    font-size: 45px
 }
 
 /* start of code for navbar desgin */
@@ -296,53 +353,3 @@ a.hoverer:hover{
 
 /* slide show complete */
 
-/* start for JA KEN HOIIII (rock paper scissors) */
-
-.selections{
-    display: flex;
-    justify-content: center;
-
-}
-
-.selection{
-    background:none;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    font-size: 65px;
-    padding: 50px;
-    margin: 10px;
-    transition: 100ms;
-}
-
-.selection:hover{
-    transform: scale(1.5)
-}
-
-.results{
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(2, 1fr);
-    font-family: 'Poppins', sans-serif;
-    font-size: 50px;
-    justify-items: center;
-    margin: 10px;
-
-}
-
-.result-score{
-    margin-left: 10px;
-    font-size: 35px;
-    padding: 20px;
-    background-color: white;
-    border-radius: 100%;
-}
-
-.result-selection{
-    opacity: 0.4;
-}
-
-.result-selection.winner{
-    opacity: 1;
-    font-size: 45px
-}
