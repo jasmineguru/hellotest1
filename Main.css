@@ -129,61 +129,6 @@ font-family: 'Spectral', serif;
 
 }
 
-/* start for JA KEN HOIIII (rock paper scissors) */
-.jakenbackground{
-    background-image: url("https://dailyanimeart.files.wordpress.com/2012/09/they-play-rock-paper-scissors1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-.selections{
-    display: flex;
-    justify-content: center;
-
-}
-
-.selection{
-    background:none;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    font-size: 65px;
-    padding: 50px;
-    margin: 10px;
-    transition: 100ms;
-}
-
-.selection:hover{
-    transform: scale(1.5)
-}
-
-.results{
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(2, 1fr);
-    font-family: 'Poppins', sans-serif;
-    font-size: 50px;
-    justify-items: center;
-    margin: 10px;
-
-}
-
-.result-score{
-    margin-left: 10px;
-    font-size: 35px;
-    padding: 20px;
-    background-color: white;
-    border-radius: 100%;
-}
-
-.result-selection{
-    opacity: 0.4;
-}
-
-.result-selection.winner{
-    opacity: 1;
-    font-size: 45px
-}
 
 /* start of code for navbar desgin */
 
@@ -353,3 +298,10 @@ a.hoverer:hover{
 
 /* slide show complete */
 
+/* Assignment Buttons */
+
+.asignbutton{
+    background-color: white;
+    position: absolute;
+    
+}

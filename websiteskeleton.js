@@ -1,3 +1,5 @@
+//slide show code
+
 var slideIndex = 1; // the initial slide
 
 
