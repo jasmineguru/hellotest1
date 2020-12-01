@@ -26,7 +26,7 @@ function guessthenumber(){
 
 // DNA to RNA
 
-function DNAtoRNA( ) {
+function DNAtoRNA() {
     var dna = prompt('enter a dna sequence using only Cs, Ts, Gs, and As')
     let rna = ''// spliting dna
     for (let i = 0; i < dna.length ; i++)
@@ -38,4 +38,5 @@ function DNAtoRNA( ) {
       }  
     return rna ; // output new RNA 
     
-    }
+}
+
