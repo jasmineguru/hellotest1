@@ -2,7 +2,8 @@ function guessthenumber(){
     var computernumber = 78; // number to guess
     var guess // initializing the variabe 
 
-    while (guess!= computernumber){
+    // while (guess!= computernumber){
+        for (i = 0; i < 4; i++){
         guess = prompt("Guess the secret number (from 0 to 100) to unlock a message");
 
         if(guess == computernumber){
