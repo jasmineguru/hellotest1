@@ -286,12 +286,20 @@ a.hoverer:hover{
     animation-duration: 0.5s;
 
 }
+/* text */
 
 .aboutmelists{
     color: #112d32;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     text-align: center;
+}
+
+.paragraphbrown{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    
 }
 
 @keyframes fade{
