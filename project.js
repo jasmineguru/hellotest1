@@ -1,8 +1,9 @@
+// guess the number
+
 function guessthenumber(){
     var computernumber = 78; // number to guess
     var guess // initializing the variabe 
 
-    // while (guess!= computernumber){
         for (i = 0; i < 4; i++){
         guess = prompt("Guess the secret number (from 0 to 100) to unlock a message");
 
@@ -22,3 +23,19 @@ function guessthenumber(){
     }
 
 }
+
+// DNA to RNA
+
+function DNAtoRNA(dna) {
+
+    let rna = ''// spliting dna
+    for (let i = 0; i < dna.length ; i++)
+      if (dna[i] == "T"){
+          rna +="U"
+          } // slecting T and replacing to U
+      else {
+      rna += dna[i];
+      }  
+    return rna ; // output new RNA 
+    
+    }
