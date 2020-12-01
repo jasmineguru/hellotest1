@@ -287,6 +287,12 @@ a.hoverer:hover{
 
 }
 
+.aboutmelists{
+    color: #112d32;
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 18px;
+}
+
 @keyframes fade{
     from{
         opacity: 0.5;
